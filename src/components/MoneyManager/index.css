@@ -1,0 +1,88 @@
+.bgcontainer {
+  padding: 50px;
+}
+.namecontainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 25px;
+  background-size: cover;
+  border-radius: 10px;
+}
+.managerspanele {
+  color: #0b69ff;
+}
+.moneycontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  list-style: none;
+  margin-top: 25px;
+}
+.inputelecontainer {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #cbd5e1;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 25px;
+
+  margin-right: 25px;
+}
+.inputtitleele {
+  margin-top: 8px;
+  margin-bottom: 15px;
+  outline: none;
+}
+.optionele {
+  padding: 4px;
+  width: 170px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  outline: none;
+  cursor: pointer;
+}
+.buttonsty {
+  padding: 6px;
+  border-style: none;
+  background-color: #0b69ff;
+  color: #fff;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+.inputANDtransactioncontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.transactionhistorycontainer {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #cbd5e1;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 25px;
+  flex-grow: 1;
+}
+.transoptionscontainer {
+  border-color: #334155;
+  border-style: solid;
+  border-width: 1px;
+
+  display: flex;
+  flex-direction: row;
+
+  padding-left: 15px;
+  padding-right: 80px;
+}
+.optionssty {
+  font-weight: 600;
+}
+.padding {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+.itemscontainer {
+  overflow-y: scroll;
+}

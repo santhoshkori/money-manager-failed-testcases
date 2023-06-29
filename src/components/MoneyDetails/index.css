@@ -1,0 +1,51 @@
+.balancestyling {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 300px;
+  max-width: 350px;
+  padding: 15px;
+  background-color: #ecfccb;
+  border-style: solid;
+  border-color: #84cc16;
+  border-radius: 15px;
+  border-width: 1px;
+}
+.incomestyling {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 300px;
+  max-width: 350px;
+  padding: 15px;
+  background-color: #cffafe;
+  border-style: solid;
+  border-color: #06b6d4;
+  border-radius: 15px;
+  border-width: 1px;
+}
+.expensesstyling {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 300px;
+  max-width: 350px;
+  padding: 15px;
+  background-color: #ede9fe;
+  border-style: solid;
+  border-color: #7c3aed;
+  border-radius: 15px;
+  border-width: 1px;
+}
+.listimagestyling {
+  height: 60px;
+  width: 60px;
+}
+.amoutparasty {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 20px;
+}

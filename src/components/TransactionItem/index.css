@@ -1,0 +1,32 @@
+.transactionitemcontainer {
+  border-color: #334155;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 80px;
+}
+.deleteicon {
+  height: 25px;
+  width: 25px;
+}
+.buttonele {
+  border-style: none;
+  background-color: transparent;
+  text-align: end;
+  outline: none;
+  cursor: pointer;
+}
+.paddingtrans {
+  padding-left: 75px;
+  padding-right: 75px;
+  text-align: center;
+}
+.mycontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
