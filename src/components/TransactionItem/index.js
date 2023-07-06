@@ -10,7 +10,7 @@ const TranscationItem = props => {
     <li className="transactionitemcontainer">
       <div className="mycontainer">
         <p className="paddingtrans">{mytitle}</p>
-        <p className="paddingtrans">{myamount}</p>
+        <p className="paddingtrans">Rs {myamount}</p>
         <p className="paddingtrans">{mytype}</p>
       </div>
       <button

@@ -5,7 +5,7 @@ const MyMoneyDetails = props => {
   const {Money, imgurl, styling, alternate, name, testid} = details
   console.log(Money)
   return (
-    <li className={styling}>
+    <div className={styling}>
       <img src={imgurl} alt={alternate} className="listimagestyling" />
       <div>
         <p>{name}</p>
@@ -13,7 +13,7 @@ const MyMoneyDetails = props => {
           Rs {Money}
         </p>
       </div>
-    </li>
+    </div>
   )
 }
 export default MyMoneyDetails

@@ -149,11 +149,11 @@ class MoneyManager extends Component {
             <span className="managerspanele">Money Manager</span>
           </p>
         </div>
-        <ul className="moneycontainer">
+        <div className="moneycontainer">
           {moneydetailsList.map(eachdetail => (
             <MyMoneyDetails details={eachdetail} key={eachdetail.money} />
           ))}
-        </ul>
+        </div>
         <div className="inputANDtransactioncontainer">
           <form
             className="inputelecontainer"
@@ -196,21 +196,22 @@ class MoneyManager extends Component {
               Add
             </button>
           </form>
-          <ul className="transactionhistorycontainer">
+          <div className="transactionhistorycontainer">
             <h1>History</h1>
             <div className="transoptionscontainer">
               <p className="optionssty padding">TITLE</p>
               <p className="optionssty padding">AMOUNT</p>
               <p className="optionssty padding">TYPE</p>
             </div>
-
-            {transactionList.map(eachtrans => (
-              <TranscationItem
-                transactionDetails={eachtrans}
-                itemdelete={this.deletemyItem}
-              />
-            ))}
-          </ul>
+            <ul>
+              {transactionList.map(eachtrans => (
+                <TranscationItem
+                  transactionDetails={eachtrans}
+                  itemdelete={this.deletemyItem}
+                />
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     )
